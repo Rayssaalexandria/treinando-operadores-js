@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        var opi=Number(prompt("digite 1 para gasolina ou digite 2 para álcool"))
+        if(opi===1){
+            var gas=Number(prompt("Qual o álcool do seu taque?"))
+            var km=Number(prompt("Quantos km vc irá percorrer ?"))
+            var gasto= gas/km
+            var v = Math.round(gasto)
+            alert(" seu gasto foi"+v)
+        }
+        else if(opi===2){
+        var al=Number(prompt("Qual o álcool do seu taque?"))
+        var km2=Number(prompt("Quantos km vc irá percorrer?"))
+        var cons=al/km2
+        var c = Math.round(cons)
+        alert(" seu gasto foi"+c)
+        }
+        
+    </script>
+</body>
+</html>
